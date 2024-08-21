@@ -1,6 +1,7 @@
 name: Deploy on Main
 
-on: [push]
+on: 
+    [push]
   {# push:
     branches:
       - main #}
