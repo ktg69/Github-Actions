@@ -17,4 +17,4 @@ jobs:
             repository: ktg69/Workflow_test.git
             ref: main
       - run: echo "current directory is $(ls)"      
-      - run: bash bash.sh
+      {# - run: bash bash.sh #}
