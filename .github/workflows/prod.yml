@@ -15,5 +15,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
             repository: ktg69/Workflow_test.git
+            ref: main
       - run: echo "current directory is $(pwd)"      
       - run: bash bash.sh
